@@ -75,11 +75,7 @@ body {
         cursor: pointer;
         margin-top: 20px;
     }
-
-    .resume-btn:hover {
-        background-color: #5a205a;
-        transform: translateY(-10px);
-    }
+        
     .left-section > p{
         font-weight: bold;
         font-size: 30px;
