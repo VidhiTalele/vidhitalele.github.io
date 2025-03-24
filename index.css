@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f08080, #a8dadc, #f8ad9d);
+    color: #333333;
+}
+
+
+    .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family:"Aladin", system-ui;
+    }
+
+    .role {
+        font-size: 30px;
+    color: #333333;
+    font-family:"Aladin", system-ui;
+    text-align:left;
+    }
+
+    .content {
+        display: flex;
+        gap: 20px;
+    }
+
+    .left-section {
+        width: 30%;
+        text-align: center;
+
+    }
+
+    .left-section img {
+        width: 100%;
+        border-radius: 50px;
+        position: relative;
+        right: 30px;
+    }
+
+    .social-links img {
+    border-radius: 10px;
+    margin: 0 10px;
+    height: 40px; 
+    width: auto; 
+    position: relative;
+    top: auto;
+    right: 30px;
+    }
+
+
+    .right-section {
+        width: 70%;
+    }
+
+    h2 {
+        border-bottom: 2px solid #8b5a8b;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        font-family:"Aladin", system-ui;
+    }
+
+    .resume-btn {
+        background-color: #8b5a8b;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .resume-btn:hover {
+        background-color: #5a205a;
+        transform: translateY(-10px);
+    }
+    .left-section > p{
+        font-weight: bold;
+        font-size: 30px;
+        position: relative;
+        right: 30px;
+        font-family:"Aladin", system-ui;
+    }
+
+    
+    .aladin-regular {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    }
